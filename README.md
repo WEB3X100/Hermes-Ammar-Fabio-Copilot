@@ -38,6 +38,45 @@ Hermes cannot:
 - override risk rules,
 - give blind buy/sell calls.
 
+## Fabio Mode Architecture
+
+Fabio mode is not one sequential agent.
+
+It is a live swarm with strict roles:
+
+| Agent | Role | Owns |
+| --- | --- | --- |
+| Orchestrator | Routes work, enforces no-execution rules, protects context. | `profiles/`, `docs/architecture/`, `docs/playbooks/` |
+| Scout | Compresses pre-market sentiment, catalysts, and important numbers. | `skills/fabio-premarket-sentiment/`, `resources/news/`, `resources/market-notes/` |
+| Setup Copilot | Watches key levels and AAA setup criteria. | `skills/fabio-aaa-setup-copilot/`, `skills/fabio-live-alert-watchlist/` |
+| Risk Sentinel | Blocks bad alerts, enforces no-trade conditions, turns journals into memory. | `SCORECARD.md`, `skills/fabio-post-trade-journal/`, `docs/memory/` |
+
+Before any pre-market, live, or journal output, Hermes must use:
+
+```text
+profiles/fabio-trading-copilot/ubiquitous_language.md
+```
+
+This file defines AAA Setup, Key Level, Important Number, Trigger, Confirmation, Invalidation, No-Trade Condition, Alert, Journal Entry, and Memory Candidate.
+
+The full live swarm charter is here:
+
+```text
+docs/architecture/live-swarm-charter.md
+```
+
+The deep module rules are here:
+
+```text
+docs/architecture/deep-module-rules.md
+```
+
+The journal memory plan is here:
+
+```text
+docs/memory/journal-memory-plan.md
+```
+
 ## Repo Structure
 
 Use this structure as the repo grows:
@@ -48,6 +87,7 @@ profiles/
     SYSTEM.md
     MEMORY.md
     SCORECARD.md
+    ubiquitous_language.md
     resources/
       test-prompts.md
       references.md
@@ -59,6 +99,8 @@ skills/
   fabio-live-alert-watchlist/
   fabio-post-trade-journal/
 docs/
+  architecture/
+  memory/
   playbooks/
   daily/
   weekly/
@@ -242,15 +284,28 @@ Then open a pull request into `main`.
 
 ## What To Build First
 
-Phase 1:
+Phase 0:
 
 - `profiles/fabio-trading-copilot/SYSTEM.md`
-- `profiles/fabio-trading-copilot/MEMORY.md`
+- `profiles/fabio-trading-copilot/ubiquitous_language.md`
 - `profiles/fabio-trading-copilot/SCORECARD.md`
+- `docs/architecture/live-swarm-charter.md`
+- `docs/architecture/deep-module-rules.md`
+- `docs/memory/journal-memory-plan.md`
 - `skills/fabio-premarket-sentiment/SKILL.md`
 - `skills/fabio-aaa-setup-copilot/SKILL.md`
 - `skills/fabio-live-alert-watchlist/SKILL.md`
 - `skills/fabio-post-trade-journal/SKILL.md`
+
+Phase 1:
+
+- `profiles/fabio-trading-copilot/MEMORY.md`
+- `resources/market-notes/`
+- `resources/news/`
+- `resources/screenshots/`
+- `resources/examples/`
+- first pre-market test prompt,
+- first post-trade journal test prompt.
 
 Phase 2:
 
@@ -264,6 +319,12 @@ Phase 3:
 - Claude Computer Use / MCP observation rules,
 - chart screenshot review workflow,
 - recursive memory update workflow.
+
+Phase 4:
+
+- Claude Mem or LightRAG sidecar plan,
+- nightly journal indexing,
+- relevant mistake retrieval during next pre-market brief.
 
 ## Definition Of Success
 
