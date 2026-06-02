@@ -80,6 +80,7 @@ Owns:
 ```text
 skills/fabio-aaa-setup-copilot/
 skills/fabio-live-alert-watchlist/
+skills/fabio-screenshot-pattern-gate/
 resources/screenshots/
 resources/examples/
 ```
@@ -88,8 +89,26 @@ Responsibilities:
 
 - track key levels,
 - compare live context against AAA criteria,
+- review screenshots in chronological order,
 - issue watch/forming/human-review/avoid alerts,
+- return WAIT/WATCH/READY/INVALID when asked for fast readiness,
 - never give blind buy/sell calls.
+
+### Story Builder
+
+Owns:
+
+```text
+skills/fabio-weighted-story-builder/
+docs/playbooks/trading-coach-os/
+```
+
+Responsibilities:
+
+- build the market story from observed data,
+- weigh location, regime, effort/result, trapped participants, volume, delta, room, and trader state,
+- compare alternate interpretations before readiness,
+- keep candidate setups separate from live rulebook setups.
 
 ### Risk Sentinel
 
@@ -168,7 +187,7 @@ Hermes must not read `implementation/` folders unless:
 - an AAA setup is actively forming,
 - debugging a specific alert,
 - reviewing screenshots,
-- or explicitly asked by Umair/Ammar.
+- or explicitly asked by Ammar/Ammar.
 
 ## Context Protection Rule
 

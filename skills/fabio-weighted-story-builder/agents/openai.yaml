@@ -1,0 +1,3 @@
+display_name: Fabio Weighted Story Builder
+short_description: Weighted ES/NQ market story builder.
+default_prompt: Build the ES/NQ market story from the supplied data using weighted confirmations, Fabio terminology, and rulebook discipline.

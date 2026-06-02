@@ -50,6 +50,8 @@ It is a live swarm with strict roles:
 | Scout | Compresses pre-market sentiment, catalysts, and important numbers. | `skills/fabio-premarket-sentiment/`, `resources/news/`, `resources/market-notes/` |
 | Setup Copilot | Watches key levels and AAA setup criteria. | `skills/fabio-aaa-setup-copilot/`, `skills/fabio-live-alert-watchlist/` |
 | Risk Sentinel | Blocks bad alerts, enforces no-trade conditions, turns journals into memory. | `SCORECARD.md`, `skills/fabio-post-trade-journal/`, `docs/memory/` |
+| Pattern Gate | Reviews screenshots in chronological order and returns one-word readiness. | `skills/fabio-screenshot-pattern-gate/` |
+| Story Builder | Weighs supplied evidence and builds the ES/NQ market story. | `skills/fabio-weighted-story-builder/`, `docs/playbooks/trading-coach-os/` |
 
 Before any pre-market, live, or journal output, Hermes must use:
 
@@ -98,10 +100,13 @@ skills/
   fabio-premarket-sentiment/
   fabio-live-alert-watchlist/
   fabio-post-trade-journal/
+  fabio-screenshot-pattern-gate/
+  fabio-weighted-story-builder/
 docs/
   architecture/
   memory/
   playbooks/
+    trading-coach-os/
   daily/
   weekly/
   monthly/
@@ -111,6 +116,16 @@ resources/
 ```
 
 Do not commit secrets, account numbers, broker credentials, API keys, private keys, or raw financial account exports.
+
+## Trading Coach OS
+
+The imported coach-only ES/NQ operating system lives here:
+
+```text
+docs/playbooks/trading-coach-os/
+```
+
+Use it for reusable process, gate, journaling, review, rulebook, and backtest templates. Real screenshots and trading logs should stay outside Git unless they are sanitized training examples.
 
 ## Daily Workflow
 
