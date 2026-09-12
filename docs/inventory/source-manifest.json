@@ -1,0 +1,470 @@
+{
+  "date": "2026-09-12",
+  "github_url": "https://github.com/WEB3X100/Hermes-Ammar-Fabio-Copilot",
+  "github_commit": "d50fa492e9f48184ee9a2bb2f3a5c3bb9eaa8e2e",
+  "local_source": "3.4_Workplace_AI_Trading_Coach",
+  "files": [
+    {
+      "source": "github",
+      "original": "docs/architecture/deep-module-rules.md",
+      "destination": "docs/architecture/deep-module-rules.md",
+      "sha256": "c1f54e113370931cc626650d427ac72f49bbe6ff6745aa4c29768181c2ec778d"
+    },
+    {
+      "source": "github",
+      "original": "docs/architecture/live-swarm-charter.md",
+      "destination": "docs/architecture/live-swarm-charter.md",
+      "sha256": "893b3caf7ab4521620d69339d5e1337ffc8251416da806ae4735eb9205febcdc"
+    },
+    {
+      "source": "github",
+      "original": "docs/memory/journal-memory-plan.md",
+      "destination": "docs/memory/journal-memory-plan.md",
+      "sha256": "abf55b4ded154591e9b21f1eb75e9806112e50d69eaee2509441cff9ad073b90"
+    },
+    {
+      "source": "github",
+      "original": "docs/playbooks/trading-coach-os/00-start-here.md",
+      "destination": "docs/playbooks/trading-coach-os/00-start-here.md",
+      "sha256": "f780bb2f7e93428f7ad36cdfa09c0668968538916d95a63e96c5f83b96933232"
+    },
+    {
+      "source": "github",
+      "original": "docs/playbooks/trading-coach-os/01-pre-market-analysis.md",
+      "destination": "docs/playbooks/trading-coach-os/01-pre-market-analysis.md",
+      "sha256": "9a42691c51310794527d3ca76bf388d2d3feb66beedef877a733c53e20c695c9"
+    },
+    {
+      "source": "github",
+      "original": "docs/playbooks/trading-coach-os/02-strategy-library.md",
+      "destination": "docs/playbooks/trading-coach-os/02-strategy-library.md",
+      "sha256": "d5753cfb38aec054ea6c900fcb3fe2bbec90ee9290ce1dff4d8bbfe98610fba7"
+    },
+    {
+      "source": "github",
+      "original": "docs/playbooks/trading-coach-os/03-in-session-workflow.md",
+      "destination": "docs/playbooks/trading-coach-os/03-in-session-workflow.md",
+      "sha256": "7957093f291312e61c1f4cec419ab508b2649c940a1380319080dbb453c22ff9"
+    },
+    {
+      "source": "github",
+      "original": "docs/playbooks/trading-coach-os/04-trade-journal-template.md",
+      "destination": "docs/playbooks/trading-coach-os/04-trade-journal-template.md",
+      "sha256": "5a5a6e1ec05a1d44270d88df854880cc659608cecdca6bb28dc4b340c27d317c"
+    },
+    {
+      "source": "github",
+      "original": "docs/playbooks/trading-coach-os/05-same-day-review.md",
+      "destination": "docs/playbooks/trading-coach-os/05-same-day-review.md",
+      "sha256": "140cb2f6297b235373643b6be3176d169b11f3b2f721edd816468470d1496907"
+    },
+    {
+      "source": "github",
+      "original": "docs/playbooks/trading-coach-os/06-weekly-review-audit.md",
+      "destination": "docs/playbooks/trading-coach-os/06-weekly-review-audit.md",
+      "sha256": "604cc252311e0f43bc1f844f7e8abe0faa97d6eb34270b5f16501261f6f85bdc"
+    },
+    {
+      "source": "github",
+      "original": "docs/playbooks/trading-coach-os/07-overnight-os-audit.md",
+      "destination": "docs/playbooks/trading-coach-os/07-overnight-os-audit.md",
+      "sha256": "989631fff2d728b022476179f1b5a8d1564135b8b554df99e9663e5deba5fb35"
+    },
+    {
+      "source": "github",
+      "original": "docs/playbooks/trading-coach-os/08-personal-rulebook.md",
+      "destination": "docs/playbooks/trading-coach-os/08-personal-rulebook.md",
+      "sha256": "e112d18aa60e648347d8af60a2e80a1b09d268777c444421af79132098d14e35"
+    },
+    {
+      "source": "github",
+      "original": "docs/playbooks/trading-coach-os/09-backtest-forward-test-protocol.md",
+      "destination": "docs/playbooks/trading-coach-os/09-backtest-forward-test-protocol.md",
+      "sha256": "c46bbe6a19319a0de460b7c102677b6d7772896ed7999e1be4c9ad90bd364c41"
+    },
+    {
+      "source": "github",
+      "original": "docs/playbooks/trading-coach-os/10-profitable-trader-insights-upgrade-roadmap.md",
+      "destination": "docs/playbooks/trading-coach-os/10-profitable-trader-insights-upgrade-roadmap.md",
+      "sha256": "54436f521767262ad9f5e2d917eeb4934d7fad2058c04e228ae3042710732cb1"
+    },
+    {
+      "source": "github",
+      "original": "docs/playbooks/trading-coach-os/11-fabio-carmine-order-flow-battle-test.md",
+      "destination": "docs/playbooks/trading-coach-os/11-fabio-carmine-order-flow-battle-test.md",
+      "sha256": "550b381f6b42fe1b936bf79d7e538b8584a2fa50c6249b671f002ad3b0308467"
+    },
+    {
+      "source": "github",
+      "original": "docs/playbooks/trading-coach-os/12-hermes-market-data-and-grok-bridge.md",
+      "destination": "docs/playbooks/trading-coach-os/12-hermes-market-data-and-grok-bridge.md",
+      "sha256": "3d5628c95452f3fe2a0983816e262f93df66e13691a5b36d338554e84e7641d7"
+    },
+    {
+      "source": "github",
+      "original": "docs/playbooks/trading-coach-os/13-team-training-and-fabio-skill-loop.md",
+      "destination": "docs/playbooks/trading-coach-os/13-team-training-and-fabio-skill-loop.md",
+      "sha256": "272bfdee4752b32643b7caf1aa58faa960e883f9ee854b8dc9f368c52a6beb79"
+    },
+    {
+      "source": "github",
+      "original": "docs/playbooks/trading-coach-os/AGENTS.md",
+      "destination": "docs/playbooks/trading-coach-os/AGENTS.md",
+      "sha256": "ac55e0c2ca245b0750da4235edce604114c243af26904dcb2dff8f04936fd69b"
+    },
+    {
+      "source": "github",
+      "original": "profiles/fabio-trading-copilot/resources/test-prompts.md",
+      "destination": "profiles/fabio-trading-copilot/resources/test-prompts.md",
+      "sha256": "f32032493ede2c162056550f24e50cb7e35c2f60a8613468c9f6803ab60c029e"
+    },
+    {
+      "source": "github",
+      "original": "profiles/fabio-trading-copilot/SCORECARD.md",
+      "destination": "profiles/fabio-trading-copilot/SCORECARD.md",
+      "sha256": "f0a86da64fe71a514554835d59bce00036f6f44885964b77f946aac0585072cd"
+    },
+    {
+      "source": "github",
+      "original": "profiles/fabio-trading-copilot/SYSTEM.md",
+      "destination": "profiles/fabio-trading-copilot/SYSTEM.md",
+      "sha256": "cc9d552132b65e2c8c45a9ecc8e53d5e4f74907381cdd7738f98a85cc9511be6"
+    },
+    {
+      "source": "github",
+      "original": "profiles/fabio-trading-copilot/ubiquitous_language.md",
+      "destination": "profiles/fabio-trading-copilot/ubiquitous_language.md",
+      "sha256": "e8fd401bf72dac74f64f1159daa166c6495e97a403a7d86e691d2308e0694691"
+    },
+    {
+      "source": "github",
+      "original": "README.md",
+      "destination": "docs/archive/original-repository-readme.md",
+      "sha256": "d708aad0967812766603f7b90947675d80e23585430526e6281d0f9776a316f2"
+    },
+    {
+      "source": "github",
+      "original": "skills/fabio-aaa-setup-copilot/README.md",
+      "destination": "skills/fabio-aaa-setup-copilot/README.md",
+      "sha256": "c20f3a139a6d05e65b0f7edb3251f92de685e1450327841938dbf9f304e5d35d"
+    },
+    {
+      "source": "github",
+      "original": "skills/fabio-aaa-setup-copilot/SKILL.md",
+      "destination": "skills/fabio-aaa-setup-copilot/SKILL.md",
+      "sha256": "406fc7e6da9ff6633917bde6f5ec42cdf781eaadce59ed916414c8a5d390b918"
+    },
+    {
+      "source": "github",
+      "original": "skills/fabio-live-alert-watchlist/README.md",
+      "destination": "skills/fabio-live-alert-watchlist/README.md",
+      "sha256": "4be9e9e9c320ce23db9ed29841618d6ddcd41923c344a34683c9da24c85e2f37"
+    },
+    {
+      "source": "github",
+      "original": "skills/fabio-live-alert-watchlist/SKILL.md",
+      "destination": "skills/fabio-live-alert-watchlist/SKILL.md",
+      "sha256": "58ae57b73d13d2bf2c4c220ffa0b224e84b4ec852db62a8a7d1cf83c7d145e93"
+    },
+    {
+      "source": "github",
+      "original": "skills/fabio-post-trade-journal/README.md",
+      "destination": "skills/fabio-post-trade-journal/README.md",
+      "sha256": "267463103d73262f157f02d229e69b3e834a87d5e58499152f3578341fcb1fd3"
+    },
+    {
+      "source": "github",
+      "original": "skills/fabio-post-trade-journal/SKILL.md",
+      "destination": "skills/fabio-post-trade-journal/SKILL.md",
+      "sha256": "a9076b49d4ab798c5f76c97ed6290d7f2970b47e3879ed2496d46d67c2349154"
+    },
+    {
+      "source": "github",
+      "original": "skills/fabio-premarket-sentiment/README.md",
+      "destination": "skills/fabio-premarket-sentiment/README.md",
+      "sha256": "539e55f3aaf4bacc64636fa1dae20b3ec580c4b0e54896e4e9fe63c31b2d0c81"
+    },
+    {
+      "source": "github",
+      "original": "skills/fabio-premarket-sentiment/SKILL.md",
+      "destination": "skills/fabio-premarket-sentiment/SKILL.md",
+      "sha256": "e452a5dc1ceb598866e8c59394889bfe055e45dd23ef09503a42ee2caa86a9c7"
+    },
+    {
+      "source": "github",
+      "original": "skills/fabio-screenshot-pattern-gate/agents/openai.yaml",
+      "destination": "skills/fabio-screenshot-pattern-gate/agents/openai.yaml",
+      "sha256": "dd0c80444be28265c4179f9c9bd8cd5ed07da79a57406dff417d0239ae7d1d5f"
+    },
+    {
+      "source": "github",
+      "original": "skills/fabio-screenshot-pattern-gate/references/check-order.md",
+      "destination": "skills/fabio-screenshot-pattern-gate/references/check-order.md",
+      "sha256": "6027ff70e3ce0276df67999ec3178f93d63fc9a0e8bc9163ea093829eb1e3e99"
+    },
+    {
+      "source": "github",
+      "original": "skills/fabio-screenshot-pattern-gate/references/training-intake.md",
+      "destination": "skills/fabio-screenshot-pattern-gate/references/training-intake.md",
+      "sha256": "5953dddb7040d503452e7665d072ff7d9eb69224b8d4972ac2ba521515e1aee8"
+    },
+    {
+      "source": "github",
+      "original": "skills/fabio-screenshot-pattern-gate/SKILL.md",
+      "destination": "skills/fabio-screenshot-pattern-gate/SKILL.md",
+      "sha256": "81dfa5b137fae0a6b6310c038247b96a8f40bd039fc1ff22fef878b438eaee6f"
+    },
+    {
+      "source": "github",
+      "original": "skills/fabio-weighted-story-builder/agents/openai.yaml",
+      "destination": "skills/fabio-weighted-story-builder/agents/openai.yaml",
+      "sha256": "3907c1c06017d692660380302f4d76fa6e6453103509878fbfa1f0ef6a5431de"
+    },
+    {
+      "source": "github",
+      "original": "skills/fabio-weighted-story-builder/references/evidence-weights.md",
+      "destination": "skills/fabio-weighted-story-builder/references/evidence-weights.md",
+      "sha256": "cd4bc2cd9d1ad4de1e08987f91936fc1fa172120f40ae4eb722bc78cf8098f75"
+    },
+    {
+      "source": "github",
+      "original": "skills/fabio-weighted-story-builder/references/story-patterns.md",
+      "destination": "skills/fabio-weighted-story-builder/references/story-patterns.md",
+      "sha256": "25be29a3365e465e5e95ad2ab0f10123ff66542a2c24f7e653eece83ba494f57"
+    },
+    {
+      "source": "github",
+      "original": "skills/fabio-weighted-story-builder/SKILL.md",
+      "destination": "skills/fabio-weighted-story-builder/SKILL.md",
+      "sha256": "2cc46a9764fb9283ece90167cc4ef3684b54e18dd20dc59ff8c395d54ed0d42c"
+    },
+    {
+      "source": "local-workspace",
+      "original": ".cursorignore",
+      "destination": "apps/ai-trading-coach/.cursorignore",
+      "sha256": "c3f7fcf8270642fad4497ad35e02cd3620442f0d4e0ede47ee607ee1297e31f3"
+    },
+    {
+      "source": "local-workspace",
+      "original": ".cursorrules",
+      "destination": "apps/ai-trading-coach/.cursorrules",
+      "sha256": "e98cad3271fc08192fbcd5f71533825a41a43724a32cd7f1c0db924d8701f23f"
+    },
+    {
+      "source": "local-workspace",
+      "original": ".devcontainer/devcontainer.json",
+      "destination": "apps/ai-trading-coach/.devcontainer/devcontainer.json",
+      "sha256": "7cf0192d70659ad14fb7a8dc4861a9ae6504dacca44f519bd545c4b89e379c68"
+    },
+    {
+      "source": "local-workspace",
+      "original": ".dockerignore",
+      "destination": "apps/ai-trading-coach/.dockerignore",
+      "sha256": "349bf76f434e30ca6a3a1e54bd16379e30c881bf86bb62de67c183b04f6d4014"
+    },
+    {
+      "source": "local-workspace",
+      "original": ".gitattributes",
+      "destination": "apps/ai-trading-coach/.gitattributes",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b"
+    },
+    {
+      "source": "local-workspace",
+      "original": ".gitignore",
+      "destination": "apps/ai-trading-coach/.gitignore",
+      "sha256": "99e0e5e5b6c8211dc11c8d2baba36f17d3b1a06436f8a533d5a6adac6e6667b3"
+    },
+    {
+      "source": "local-workspace",
+      "original": ".vscode.example/settings.json",
+      "destination": "apps/ai-trading-coach/.vscode.example/settings.json",
+      "sha256": "aad1a800ea2b5ab12b5098332386b615d59bb3cd8ccec14ce4756a305e6d5fe2"
+    },
+    {
+      "source": "local-workspace",
+      "original": "11-fabio-order-flow-battle-test.md",
+      "destination": "docs/research/nq/01-order-flow-battle-test.md",
+      "sha256": "9811b0649766a9b77763a54dc5de37dd6a5b3802fca35bcd8849f5adf5f5e9d5"
+    },
+    {
+      "source": "local-workspace",
+      "original": "12-volume-profile-framing-skill.md",
+      "destination": "docs/research/nq/02-volume-profile-framing.md",
+      "sha256": "c70e1e0833f8d4933b5f4e9dd52750b0d4b28cb296cf4c74688ecee03cd24611"
+    },
+    {
+      "source": "local-workspace",
+      "original": "13-scenario-building-skill.md",
+      "destination": "docs/research/nq/03-scenario-building.md",
+      "sha256": "061fcf29eb1a84cd4e97645c243b23562484ee7583eafd8aa36fa28cd13b90af"
+    },
+    {
+      "source": "local-workspace",
+      "original": "config.example.env",
+      "destination": "apps/ai-trading-coach/config.example.env",
+      "sha256": "dd0a9bc6dcff8f1e9108275d06e2f90dc49a9456359f89ebc2382576d919c486"
+    },
+    {
+      "source": "local-workspace",
+      "original": "data/.gitkeep",
+      "destination": "apps/ai-trading-coach/data/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "local-workspace",
+      "original": "Dockerfile",
+      "destination": "apps/ai-trading-coach/Dockerfile",
+      "sha256": "e00aca9aa10291ce7d4d0ca081952ee5795904a9f0d27c7671879df48331b0f7"
+    },
+    {
+      "source": "local-workspace",
+      "original": "LICENSE",
+      "destination": "apps/ai-trading-coach/LICENSE",
+      "sha256": "17843a99328871be48ce175ad80ee3f142096d70ec6b990a05a637de9a57366f"
+    },
+    {
+      "source": "local-workspace",
+      "original": "README.md",
+      "destination": "apps/ai-trading-coach/README.md",
+      "sha256": "7d5618f819357b97c65938a990ddc05a8d091260ff8d9ac4e45587fe0ebf42a2"
+    },
+    {
+      "source": "local-workspace",
+      "original": "requirements.txt",
+      "destination": "apps/ai-trading-coach/requirements.txt",
+      "sha256": "652be343859d6829fb203dc969af57163d5aaf7985106e05d0a51659e58b62be"
+    },
+    {
+      "source": "local-workspace",
+      "original": "rules.yaml",
+      "destination": "apps/ai-trading-coach/rules.yaml",
+      "sha256": "219909f438b9cfd47f982d66034169900f5405639c96a6bb1bbef18c404c20dc"
+    },
+    {
+      "source": "local-workspace",
+      "original": "src/ai_trading_coach/__init__.py",
+      "destination": "apps/ai-trading-coach/src/ai_trading_coach/__init__.py",
+      "sha256": "5a71ca72d0307f09954e132ba6ba331b365b06d6015cf4169f5a8f90fe15a607"
+    },
+    {
+      "source": "local-workspace",
+      "original": "src/ai_trading_coach/analysis/__init__.py",
+      "destination": "apps/ai-trading-coach/src/ai_trading_coach/analysis/__init__.py",
+      "sha256": "60d06d800be7b1d63bd15a25ad815880b0881da40b3187694d41c6a08c64dabb"
+    },
+    {
+      "source": "local-workspace",
+      "original": "src/ai_trading_coach/analysis/events.py",
+      "destination": "apps/ai-trading-coach/src/ai_trading_coach/analysis/events.py",
+      "sha256": "3cf0d5f8af66c4f8f3de73d9a95a77bd310a185aadea574918d467069cca26cb"
+    },
+    {
+      "source": "local-workspace",
+      "original": "src/ai_trading_coach/config.py",
+      "destination": "apps/ai-trading-coach/src/ai_trading_coach/config.py",
+      "sha256": "affe9b31698e1a03d7ce9c8a40701885c81c744281960c80e62821f7d00d8963"
+    },
+    {
+      "source": "local-workspace",
+      "original": "src/ai_trading_coach/discord_webhook.py",
+      "destination": "apps/ai-trading-coach/src/ai_trading_coach/discord_webhook.py",
+      "sha256": "52eb6a378310c9178887c782747d2be6c9702bc48ac8fc9016beca30969dc858"
+    },
+    {
+      "source": "local-workspace",
+      "original": "src/ai_trading_coach/domain/__init__.py",
+      "destination": "apps/ai-trading-coach/src/ai_trading_coach/domain/__init__.py",
+      "sha256": "e5d9f268744d56c37f0e049205ba34744bd4bc6040674a37db588742d5fb7189"
+    },
+    {
+      "source": "local-workspace",
+      "original": "src/ai_trading_coach/domain/trade_lifecycle.py",
+      "destination": "apps/ai-trading-coach/src/ai_trading_coach/domain/trade_lifecycle.py",
+      "sha256": "a4509d31d820ccc31f4e671d9edb1072e2804e536b347ab0d41ecbe79aeb8812"
+    },
+    {
+      "source": "local-workspace",
+      "original": "src/ai_trading_coach/integrations/__init__.py",
+      "destination": "apps/ai-trading-coach/src/ai_trading_coach/integrations/__init__.py",
+      "sha256": "50fee64407453d2310f498c3ecc0555742a994ecc1f35cda76f89d5126d2f9a9"
+    },
+    {
+      "source": "local-workspace",
+      "original": "src/ai_trading_coach/integrations/bitget_readonly.py",
+      "destination": "apps/ai-trading-coach/src/ai_trading_coach/integrations/bitget_readonly.py",
+      "sha256": "843af20d20411bc6373a8eb7359a994c19509ae936f3290f7e2cba21404b63bc"
+    },
+    {
+      "source": "local-workspace",
+      "original": "src/ai_trading_coach/integrations/bitget_rest.py",
+      "destination": "apps/ai-trading-coach/src/ai_trading_coach/integrations/bitget_rest.py",
+      "sha256": "068c5d7002cde2da1cddba036fbda0d51337e8630fb985ecb057ce5dfc1b1a94"
+    },
+    {
+      "source": "local-workspace",
+      "original": "src/ai_trading_coach/llm_client.py",
+      "destination": "apps/ai-trading-coach/src/ai_trading_coach/llm_client.py",
+      "sha256": "2dd549ad2d52f59634f9531f85b27938b8361f901edfb543e0e14f016a13b3ab"
+    },
+    {
+      "source": "local-workspace",
+      "original": "src/ai_trading_coach/pipeline/__init__.py",
+      "destination": "apps/ai-trading-coach/src/ai_trading_coach/pipeline/__init__.py",
+      "sha256": "edf40bff538ff10e91304d9f209441a288cec0f599ee3544801dc3003734bcd6"
+    },
+    {
+      "source": "local-workspace",
+      "original": "src/ai_trading_coach/pipeline/aggregate_lifecycles.py",
+      "destination": "apps/ai-trading-coach/src/ai_trading_coach/pipeline/aggregate_lifecycles.py",
+      "sha256": "3e7a9b64f05c6f95e4b1bd6da546f74c0fe55fdf4eb07599673aa130736d79b4"
+    },
+    {
+      "source": "local-workspace",
+      "original": "src/ai_trading_coach/pipeline/sync_bitget.py",
+      "destination": "apps/ai-trading-coach/src/ai_trading_coach/pipeline/sync_bitget.py",
+      "sha256": "e8e238fbb5873f6a1f8ec118f117ca09f6f3d5c590ff7204bbeb1562134bd252"
+    },
+    {
+      "source": "local-workspace",
+      "original": "src/ai_trading_coach/reports/discord_preview.py",
+      "destination": "apps/ai-trading-coach/src/ai_trading_coach/reports/discord_preview.py",
+      "sha256": "3db34c6f558bd88502fa3149985d6f090a9bdf3971e5291dcd291ba0f34b5d6f"
+    },
+    {
+      "source": "local-workspace",
+      "original": "src/ai_trading_coach/reports/generator.py",
+      "destination": "apps/ai-trading-coach/src/ai_trading_coach/reports/generator.py",
+      "sha256": "d74ec2aed9995fe70a3866a1cb9aad41952c4d7df1989ca8d7596d15aba25780"
+    },
+    {
+      "source": "local-workspace",
+      "original": "src/ai_trading_coach/scheduler/run_reviews.py",
+      "destination": "apps/ai-trading-coach/src/ai_trading_coach/scheduler/run_reviews.py",
+      "sha256": "3fa5e62d90ee7b88f92260d76385e59a6aef9e66a58a81591f4eefb181ac1aba"
+    },
+    {
+      "source": "local-workspace",
+      "original": "src/ai_trading_coach/scheduler/scheduler_app.py",
+      "destination": "apps/ai-trading-coach/src/ai_trading_coach/scheduler/scheduler_app.py",
+      "sha256": "60e08626195093a28486f529fc8f1b3bc105b7db4536495d96d07604f6014fe4"
+    },
+    {
+      "source": "local-workspace",
+      "original": "src/ai_trading_coach/server.py",
+      "destination": "apps/ai-trading-coach/src/ai_trading_coach/server.py",
+      "sha256": "b1f318634400109cf03aa268382e9e5e711d108a364c4b67e549b380aab00745"
+    },
+    {
+      "source": "local-workspace",
+      "original": "src/ai_trading_coach/storage/__init__.py",
+      "destination": "apps/ai-trading-coach/src/ai_trading_coach/storage/__init__.py",
+      "sha256": "75f598b38a5008e55d85a8228901a97fd3003cd67e6dbfe3f3c28b9af6d90314"
+    },
+    {
+      "source": "local-workspace",
+      "original": "src/ai_trading_coach/storage/sqlite_store.py",
+      "destination": "apps/ai-trading-coach/src/ai_trading_coach/storage/sqlite_store.py",
+      "sha256": "11719821f790117403ef60b168b760cb0428e5f2d9aa2db0e2d5977e44778a95"
+    }
+  ]
+}
